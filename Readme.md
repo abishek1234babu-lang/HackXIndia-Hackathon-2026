@@ -1,29 +1,16 @@
-## HackXIndia
-### Join 1000+ developers, designers and founders from all over India for a 24-hour non-stop hackathon that turns ideas into deployable products.
+# React + Vite
 
---- 
-### Why this hackathon?
-Real problems, real mentors, real deploys. No boring PPTs – just shipping.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Work on problem statements from industry & startups.
-- Get mentored by developers, founders & domain experts.
-- Win cash prizes, swags & internship opportunities.
----
-### Who can participate?
-Open for all college students & early professionals across India.
+Currently, two official plugins are available:
 
-- CSE / IT / ECE / EE / ME / Any branch – all welcome.
-- Beginner-friendly: no minimum experience required.
-- Team size: 1–4 members
---- 
-📘
-### Instructions & Guidelines
-#### Important rules all participants must follow before and during HackXIndia.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- HackXIndia is an online hackathon, being organized under Google Developers Groups on Campus.
-- Only the Team Leader needs to register for the hackathon.
-- The registration fee is non‑refundable in any circumstances.
-- This is an open‑source hackathon.
-- Everyone must join the WhatsApp channel to get all official updates.
-- Registration Fee: ₹199 per team
-- Team Size: 1–4 members
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
