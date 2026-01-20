@@ -1,24 +1,11 @@
-import React from 'react';
+import React from 'react'
+import Navbar from "./sections/Navbar.jsx";
 
 const App = () => {
     return (
-        <header className="fixed top-0 right-0 left-0 z-50 bg-black/90">
-            <div className="max-w-7xl mx-auto">
-                <div className="flex justify-between items-center py-5 mx-auto c-space">
-                    <a
-                        href="/"
-                        className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
-                    >
-                        Abishekbabu
-                    </a>
-
-                    <button className="invert">
-                        <img src={pub} alt="menu" className="w-6 h-6" />
-                    </button>
-                </div>
-            </div>
-        </header>
-    );
+        <main className="max-w-7xl mx-auto">
+            <Navbar />
+        </main>
+    )
 }
-
-export default App;
+export default App
