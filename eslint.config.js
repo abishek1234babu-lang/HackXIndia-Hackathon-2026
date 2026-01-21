@@ -22,8 +22,16 @@ export default defineConfig([
         sourceType: 'module',
       },
     },
+    plugins: {
+      react,
+      "@react-three": "ReactThreeFiber",
+      "react-hooks": "ReactHooks",
+      "react-refresh": "ReactRefresh",
+    },
+
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      "react/no-unknown-property": "off",
     },
   },
 ])
