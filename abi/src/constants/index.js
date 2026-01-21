@@ -9,13 +9,9 @@ export const navLinks = [
     name: 'About',
     href: '#about',
   },
+
   {
     id: 3,
-    name: 'Work',
-    href: '#work',
-  },
-  {
-    id: 4,
     name: 'Contact',
     href: '#contact',
   },
